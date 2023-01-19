@@ -1,0 +1,7 @@
+nome= input('Digite seu nome completo ')
+nomeu= nome.upper()
+nomel= nome.lower()
+nomef= nome.split()
+nomef2= len(nomef[0])
+nomec= len(''.join(nomef))
+print('{}\n{}\n{}\n{}'.format(nomeu,nomel,nomec,nomef2))
